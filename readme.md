@@ -19,7 +19,7 @@ ROS-Сервисы:
 Пример использования из python
 ------------------------------
 
-```(python)
+```python
 import os
 import time
 import rospy
@@ -62,7 +62,7 @@ stop_music()
 
 Скачайте и соберите пакет с помощью Catkin:
 
-```(bash)
+```bash
 cd catkin_ws/src
 git clone
 cd ..
@@ -72,6 +72,6 @@ catkin_make --pkg=copter_hack_music
 Запуск
 ------
 
-```(bash)
+```bash
 roslaunch copter_hack_music copter_hack_music.launch
 ```
