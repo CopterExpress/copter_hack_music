@@ -1,0 +1,6 @@
+<launch>
+    <node name="music" pkg="copter_hack_music" type="music.py" output="screen">
+        <param name="server_url" value="http://192.168.0.81:5000"/>
+        <param name="storage" value="~/music"/>
+    </node>
+</launch>
