@@ -64,7 +64,7 @@ stop_music()
 
 ```bash
 cd catkin_ws/src
-git clone
+git clone git@github.com:CopterExpress/copter_hack_music.git
 cd ..
 catkin_make --pkg=copter_hack_music
 ```
