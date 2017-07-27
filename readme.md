@@ -32,7 +32,7 @@ rospy.init_node('node_name')
 
 # Создаем прокси к сервисам
 
-get_music = rospy.ServiceProxy('/music/get_music', GetMusic)
+get_music = rospy.ServiceProxy('/music/get', GetMusic)
 play_music = rospy.ServiceProxy('/music/play', PlayMusic)
 stop_music = rospy.ServiceProxy('/music/stop', Trigger)
 
